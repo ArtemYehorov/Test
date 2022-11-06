@@ -29,10 +29,10 @@ namespace Test
             InitializeComponent();
         }
 
-        public Form2(Form1 par)
+        public Form2(Form1 parent)
         {
             InitializeComponent();
-            parent = par;
+            this.parent = parent;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
